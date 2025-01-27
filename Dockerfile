@@ -1,5 +1,6 @@
 ### Build
-FROM beevelop/ionic:latest AS ionic
+#FROM beevelop/ionic:latest AS ionic
+FROM beevelop/ionic:v2021.02.1 AS ionic
 
 ARG POSTGRES_USERNAME_ARG
 ARG POSTGRES_PASSWORD_ARG
