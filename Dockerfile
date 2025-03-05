@@ -24,7 +24,7 @@ ENV URL=$URL_ARG
 
 ## Create app directory
 WORKDIR /usr/src/app
-## Install app dependencies
+## Install app dependencies test
 ## A wildcard is used to ensure both package.json AND package-lock.json are copied
 COPY package*.json ./
 # Install dependencies
